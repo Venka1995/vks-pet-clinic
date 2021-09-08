@@ -14,7 +14,7 @@
     </parent>
     <groupId>venjava.spring</groupId>
     <artifactId>vks-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>vks-pet-clinic</name>
     <description>vks-pet-clinic</description>
     <properties>
