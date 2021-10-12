@@ -1,14 +1,16 @@
 package venjava.spring.vkspetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import venjava.spring.vkspetclinic.model.Vet;
 import venjava.spring.vkspetclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
-        return null;
+        return super.findAll();
     }
 
     @Override
@@ -23,11 +25,11 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetSe
 
     @Override
     public Vet save(Vet object) {
-        return null;
+        return super.save(object);
     }
 
     @Override
     public Vet findById(Long id) {
-        return null;
+        return super.findById(id);
     }
 }
